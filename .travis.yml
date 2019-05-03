@@ -1,8 +1,8 @@
-language : python
 os:
   -windows
+language : python
 python:
   -3.4.10
 install:
-  -pip install unittest2
+  -pip install unittest
 script: python myfile.py
